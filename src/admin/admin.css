@@ -1,0 +1,73 @@
+
+.admin{
+  
+    width: 70%;
+    height: 1%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 300px;
+    margin: auto;
+}
+.btnGroup{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.btn {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    background: rgb(95 95 95);
+    padding: 15px 40px;
+    border-radius: 4px;
+    font-weight: normal;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+  }
+
+  input {
+	margin:15px 0;
+	padding:15px 10px;
+	width:100%;
+	outline:none;
+	border:1px solid #bbb;
+	border-radius:20px;
+	display:inline-block;
+
+}
+.Question,.addAdmin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+}
+.addForm{
+    padding: 20px;
+    width: 500px;
+    /* position: absolute; */
+    /* left: 50%; */
+    /* top: 50%; */
+    /* transform: translate(-50%, -50%); */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: white;
+    margin-top: 4%;
+
+
+}
+.questionTable{
+    
+    margin-top: 2%;
+    width: 80%;
+    padding: 3%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: white;
+  
+}
